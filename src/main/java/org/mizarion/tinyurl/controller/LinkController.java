@@ -5,7 +5,6 @@ import lombok.RequiredArgsConstructor;
 import org.mizarion.tinyurl.model.CreateShortUrlRequestDto;
 import org.mizarion.tinyurl.model.ShortUrlDto;
 import org.mizarion.tinyurl.service.RedirectService;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.view.RedirectView;
 
