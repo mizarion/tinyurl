@@ -11,5 +11,4 @@ public interface LinkRepository extends JpaRepository<LinkEntity, Long> {
 
     Optional<LinkEntity> findByShortUrl(String shortUrl);
 
-    Optional<LinkEntity> findByLongUrl(String longUrl);
 }
